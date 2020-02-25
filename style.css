@@ -1,58 +1,19 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
-@Pajinell
-Pajinell 7 days ago
-
-Tohle úplně asi nefunguje, importují se fonty do html, jako to máš udělané, případně: <style> @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap'); </style> taky do hlavičky html souboru 🙂 .
-@JanaHol731
-
-body {
-  margin: 0 auto;
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1.5;
-  background-color: lightgray;
+body{
+    background-color: rgb(255, 196, 237);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    text-align: left;
 }
 
-a {
-  color: rgb(28, 102, 136);
+h1{
+    color: rgba(0, 38, 255, 0.747);
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
 }
 
-p {
-  font-style: 160;
-  font-weight: normal;
-  font-style: bold;
-@Pajinell
-Pajinell 7 days ago
+img{
+    width: 155px;
+    height: 200px;
 
-font-style má možné tyto hodnoty: https://developer.mozilla.org/en-US/docs/Web/CSS/font-style ... nejběžnější jsou kurzíva italic a normal 🙂
-@JanaHol731
-  text-align: center;
-}
-
-body img {
-  width: 200px;
-  /* float: center; */
-  align-self: center;
-}
-
-header {
-  background-color: #263d36;
-  background-image: url("headerfoto.jpg");
-@Pajinell
-Pajinell 7 days ago
-
-Fotka je strašně veliká (2 MB) a dlouho se načítá ... ohledně obrázků a jejich velikostí si určitě budeme na hodinách povídat ... zkus zatím, když používáš na web nějaký obrázky ho aspoň nechat "přechroupat pandou" 🙂 : https://tinyjpg.com/ ... obrázek se zkomprimuje, zmenší, ale neovlivní to jeho kvalitu. Samozřejmě můžeš použít i jiný program na komprimaci.
-@JanaHol731
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  line-height: 1.2;
-  padding: 10vw 2em;
-  text-align: center;
-}
-
-header h1 {
-  color: white;
-  font-size: 2.5em;
-  font-weight: 400;
-  font-weight: bold;
 }
